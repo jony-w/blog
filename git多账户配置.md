@@ -4,11 +4,11 @@
     $ cd .ssh
     $ ssh-keygen -t rsa -C "xx@email.com"
        
-    $Enter file in which to save the key (/c/Users/Administrator/.ssh/id_rsa): github //可以重命名为github，方便区分
+    $Enter file in which to save the key (/c/Users/xx/.ssh/id_rsa): github //可以重命名为github，方便区分
        
     $ ssh-keygen -t rsa -C "workemail@email.com"
        
-    $Enter file in which to save the key (/c/Users/Administrator/.ssh/id_rsa): work
+    $Enter file in which to save the key (/c/Users/xx/.ssh/id_rsa): work
     
         ... 后续直接回车到完成。
         
