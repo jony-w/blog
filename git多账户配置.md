@@ -61,5 +61,28 @@
     
     
     ```cmd
+    
+3. github 其他命令
 
+```cmd
+
+1、把专用密钥添加到 ssh-agent 的高速缓存中： 
+    ssh-add ~/.ssh/id_dsa 
+    
+2、从ssh-agent中删除密钥： 
+    ssh-add -d ~/.ssh/id_xxx.pub 
+    
+3、查看ssh-agent中的密钥： 
+    ssh-add -l
+ 
+ 
+-D：删除ssh-agent中的所有密钥. 
+-d：从ssh-agent中的删除密钥 
+-e pkcs11：删除PKCS#11共享库pkcs1提供的钥匙。 
+-s pkcs11：添加PKCS#11共享库pkcs1提供的钥匙。 
+-L：显示ssh-agent中的公钥 
+-l：显示ssh-agent中的密钥 
+-t life：对加载的密钥设置超时时间，超时ssh-agent将自动卸载密钥 
+-X：对ssh-agent进行解锁 
+-x：对ssh-agent进行加锁
 
