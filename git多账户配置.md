@@ -29,12 +29,12 @@
     config 内容如下
     
     ```cmd
-    
+    #主账户
     Host github.com       //这个我就保持与HostName一致了
     HostName github.com   //对应仓库的站点
     User name               //用户名
     IdentityFile  ~/.ssh/github  //对应的ssh key 文件
-       
+    #附属账户
     Host work.com
     HostName work.com
     User name
